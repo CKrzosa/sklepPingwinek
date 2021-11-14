@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylehome.css">
+    <title>Twoj Bazar</title>
+</head>
+
+<body>
+
+
+
+    </div>
+    <!-- logo wraz z przyciskami i logowaniem -->
+    <header id="header">
+        <!-- logo + nazwa  -->
+        <a id="logo" href="/"></a>
+
+        <!-- przyciski logowania i kosz -->
+        <a id="koszyk" href="koszyk"></a>
+        <p id="koszCount"></p>
+        <a id="podsumowanie" href="podsumowanieStrona"></a>
+        <button id="butt1" class="button">Logowanie</button>
+        <button id="butt2" class="button">Rejestracja</button>
+        <button id="butt3" class="button">Wyloguj</button>
+
+        <!-- hamburger -->
+        <button class="ham"></button>
+        <button class="ham"></button>
+        <button class="ham"></button>
+
+
+    </header>
+
+
+    <!-- kolor tła  -->
+    <div id="background">
+
+
+        <!-- zdjecia plus formy -->
+        <article class="contener" id="contenerID">
+
+            <!-- logowanie -->
+            <div id="logowanie">
+                <p class="true"> Logowanie nie powiodło się</p>
+                <form class="formlog" action="/logowanie" method="POST">
+                    <label class="lab" for="fname">Login:</label>
+                    <input type="text" name="login" class="in"> <br>
+                    <label class="lab" for="fname">Haslo:</label>
+                    <input type="password" name="haslo" class="in"> <br>
+                    <button class="labbutton">Zaloguj się</button>
+                    <button type="button" id="back" class="labbutton">Wstecz</button>
+
+
+                </form>
+
+            </div>
+
+            <div id="rejestracja">
+                <!-- <p class="true"> Halo gdzie jestem</p> -->
+                <form class="formlog" action="/rejestracja" method="POST">
+                    <label class="lab" for="fname">Imie:</label>
+                    <input type="text" name="imie" class="in"> <br>
+                    <label class="lab" for="fname">Nazwisko:</label>
+                    <input type="text" name="nazwisko" class="in"> <br>
+                    <label class="lab" for="fname">Email:</label>
+                    <input type="text" name="email" class="in"> <br>
+                    <label class="lab" for="fname">Miejscowosc:</label>
+                    <input type="text" name="miejscowosc" class="in"> <br>
+                    <label class="lab" for="fname">Kod Pocztowy:</label>
+                    <input type="text" name="kodPocztowy" class="in"> <br>
+                    <label class="lab" for="fname">Ulica/Nr mieszkania:</label>
+                    <input type="text" name="UlNr" class="in"> <br>
+                    <label class="lab" for="fname">Nazwa Użytkownika:</label>
+                    <input type="text" name="login" class="in"> <br>
+                    <label class="lab" for="fname">Haslo:</label>
+                    <input type="password" name="haslo" class="in"> <br>
+                    <label class="lab" for="fname">Powtórz Haslo:</label>
+                    <input type="password" name="powtorzenie" class="in"> <br>
+                    <button class="labbutton">Zarejestruj się</button>
+                    <button type="button" id="backRej" class="labbutton">Wstecz</button>
+
+                </form>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </article>
+
+    </div>
+
+
+    <!-- koniec strony plus creditsy -->
+    <footer id="footer"></footer>
+
+
+
+
+
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>

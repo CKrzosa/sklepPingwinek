@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+   
+    
+}
+
+header{
+    display: flex;
+background-color: #91c788;
+height: 10vh;
+align-items: center;
+}
+
+#art{
+    display: flex;
+    background-color: #FEFFDE;
+    height: 90vh;
+   align-items: center;
+    justify-content: space-between;  
+}   
+
+
+footer{
+    background-color: #91c788;
+    height: 10vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+   padding: 15px; 
+    width: 12.5vw;
+   
+    height: 3vh;
+    background:#FEFFDE;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+   
+    justify-content: space-around;
+
+}
+.x{
+    position: absolute;
+ list-style: none;
+ width: 2vw;
+ height: 5px;
+ background-color: black;
+ transform: rotate(-45deg);
+ margin-left: 43.7%;
+ margin-top:3vh;
+ cursor: pointer;
+}
+.y{
+
+    position: absolute;
+    list-style: none;
+    width: 2vw;
+    height: 5px;
+    background-color: black;
+    transform: rotate(45deg);
+    margin-left:43.7%;
+    margin-top:3vh;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    background-color:#DDFFBC ;
+    width: 45vw;
+    padding: 12px;
+    
+    margin-left: 13vw;
+    border: solid 2px #52734D;
+}
+
+
+
+.inputCena{
+    position: absolute;
+    margin-top: 1.2vh;
+   
+    height: 3vh;
+    width: 4vw;
+    margin-left: 37.5vw;
+}
+
+
+.logo{
+    margin: 5px;
+    height: 10vh;
+    width: 20vh;
+    
+}
+
+#summary{
+    display: flex;
+    width: 20vw;
+    height:15vh;
+    background-color: #91c788;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10vw;
+
+
+}
+
+#kup{
+    margin-top: 1vh;
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    background-color:#feffde ;
+    cursor: pointer;
+    color: #91c788;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+

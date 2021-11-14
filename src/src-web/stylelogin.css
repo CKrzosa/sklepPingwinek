@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+   
+    
+}
+
+
+.logowanie{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rejestracja{
+    
+}
+
+.formlog{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #52734D ;
+
+}
+.lab{
+
+    
+}
+
+.in{
+    padding: 5px;
+    
+
+}
+
+.labbutton{
+    padding: 5px;
+    color: #52734D ;
+    background-color: #feffde ;
+   cursor: pointer;
+
+}

@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+   
+    
+}
+/* tło strony  */
+
+
+#background{
+    
+    background-color:
+    #feffde ;
+    height:90vh;
+    
+   
+}
+
+/* Nagłówek strony  */
+
+#header{
+    background-color:
+    #91c788;
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  
+    
+}
+
+
+.logo{
+    margin: 5px;
+    height: 10vh;
+    width: 20vh;
+    
+}
+
+.kosz{
+   
+    height:9vh;
+    width: 11vh;
+}
+
+.foto{
+    object-fit: cover;
+    width: 18vw;
+    height: 26vh;
+    z-index: 1 ; 
+    
+    
+}
+
+.podsumowanie{  height:9vh;
+    width: 10vh;}
+
+.button{
+    margin-right: 5vw;
+ 
+    padding: 10px;
+   border: none;
+   background-color: #feffde;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #52734D;
+    font-weight: bold;
+   
+}
+
+
+#koszCount{
+    position: absolute;
+    background-color: #feffde;
+  padding: 8px;
+    color: red;
+    font-style: bold;
+    border: none;
+    margin-left: 62vw;
+    
+}
+
+
+#koszyk{
+    position: absolute;
+    
+    margin-left:55vw;
+  
+}
+
+
+#butt1{
+    margin-left: 66vw;
+    display: none;
+}
+
+
+#butt2{
+    display: none;
+}
+
+
+#butt3{
+    
+}
+
+
+.ham{
+    display: none;
+}
+
+/* Srodek strony */
+
+
+.contener{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
+    grid-template-areas: 
+    "fot1 fot2 fot3 fot4"
+    "form1 form2  form3 form4 "
+    "fot5 fot6 fot7 fot8"
+    "form5  form6  form7 form8 "
+    ;
+    justify-items: center;
+    
+    padding-top: 10vh;
+    
+   
+}
+
+
+.owoc{
+    margin: 10px;
+    color: #52734D;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+    align-items: center;
+   
+  
+}
+
+
+.koszbutt{
+    
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #91c788;
+    cursor: pointer;
+    color: #feffde;
+    font-weight: bold;
+    
+    
+}
+
+/* logowanie i rejestracja  */
+
+#logowanie{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    height:100vh;
+    background-color: #FEFFDE ;
+    
+
+}
+
+#rejestracja{
+    position: absolute;
+
+    background-color: #FEFFDE ;
+    width: 100%;
+    height:100vh;
+    display: none;
+   
+    
+}
+
+.formlog{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #52734D ;
+    left: 46%;
+    top: 30%;
+
+    width: 10vw;
+    height: 10vh;
+    
+}
+.lab{
+
+    
+}
+
+.in{
+    padding: 5px;
+    
+
+}
+
+.labbutton{
+    padding:10px;
+    color: #FEFFDE ;
+    background-color: #91C788;
+   cursor: pointer;
+   border: none;
+   font-size: 16px;
+
+}
+#back{
+    margin-top: 20px;
+}
+#backRej{
+    margin-top: 20px;
+}
+/* 
+Komunikaty o logowaniu i rejestracji  */
+
+
+.false{  
+
+    position: absolute;
+    left: 42vw;
+    top: 8%;
+    font-size: 28px;
+    color: red;
+   font-weight: bold;
+
+}
+
+.true{
+
+    display: none;
+
+}
+
+
+
+
+
+
+
+/* Spód */
+
+#footer{
+    display: flex;
+    background-color:#91c788 ;
+    height: 10vh;
+
+}
+
+
+/* Ustawienie grida */
+
+#fot1{
+    grid-area: fot1;
+}
+#fot2{
+    grid-area: fot2;
+}
+#fot3{
+    grid-area: fot3;
+}
+#fot4{
+    grid-area: fot4;
+}
+#fot5{
+    grid-area: fot5;
+}
+#fot6{
+    grid-area: fot6;
+}
+#fot7{
+    grid-area: fot7;
+}
+#fot8{
+    grid-area: fot8;
+}
+
+#form1{
+    padding-top: 2vh;
+    grid-area: form1;
+}
+#form2{
+    padding-top: 2vh;
+    grid-area: form2;
+}
+#form3{
+    padding-top: 2vh;
+    grid-area: form3;
+}
+#form4{
+    padding-top: 2vh;
+    grid-area: form4;
+}
+#form5{
+    padding-top: 2vh;
+    grid-area: form5;
+}
+#form6{
+    padding-top: 2vh;
+    grid-area: form6;
+}
+#form7{
+    padding-top: 2vh;
+    grid-area: form7;
+}
+#form8{
+    padding-top: 2vh;
+    grid-area: form8;
+}
+
+@media screen and (max-width: 700px) { 
+    
+
+.button{
+    display: none;
+}
+
+.ham{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
