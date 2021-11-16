@@ -3,7 +3,7 @@ const fs = require('fs');
 const mysql = require("mysql");
 const bcrypt = require('bcrypt');
 const host = 'localhost';
-const port = 8000;
+const port = 3001;
 const saltRounds = 10;
 
 function errorCode(res, code) {
