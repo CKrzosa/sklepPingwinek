@@ -2,8 +2,8 @@ const http = require("http");
 const fs = require('fs');
 const mysql = require("mysql");
 const bcrypt = require('bcrypt');
-const host = 'localhost';
-const port = 3001;
+const host = 'sklep.krzosa.com';
+const port = 3000;
 const saltRounds = 10;
 
 function errorCode(res, code) {
@@ -487,6 +487,7 @@ function koszyk(res, UzytkownikID) {
                             <meta name="viewport" content="width=device-width, initial-scale=1.0">
                             <title>Document</title>
                             <link rel="stylesheet" href="stylekoszyk.css">
+                            <link rel="shortcut icon" href="zdjecia/LogoMakr.png">
                         </head>
                         
                         <body>
