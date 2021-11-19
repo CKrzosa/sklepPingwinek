@@ -38,12 +38,6 @@ fetch("/danePodsumowanie", {
 
 
 
-
-
-
-
-
-
 // Przyciski wyloguj 
 if (document.cookie !== "") {
 
@@ -192,7 +186,7 @@ fetch("/DaneZShop", {
 
         let ilosc = "kg"
 
-        if (owocki[objekt]["nazwa"] === "Kaiserka" || owocki[objekt]["nazwa"] === "Maslo") {
+        if (owocki[objekt]["nazwa"] === "Kaiserka" || owocki[objekt]["nazwa"] === "Maslo" || owocki[objekt]["nazwa"] === " Jajka") {
             ilosc = "sztukach"
         } else if (owocki[objekt]["nazwa"] === "Mleko" || owocki[objekt]["nazwa"] === "Olej") {
             ilosc = "1L"

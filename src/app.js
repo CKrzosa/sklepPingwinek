@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require('fs');
 const mysql = require("mysql");
 const bcrypt = require('bcrypt');
-const host = 'sklep.krzosa.com';
+const host = '23.88.104.23';
 const port = 3000;
 const saltRounds = 10;
 
